@@ -1,0 +1,16 @@
+<div class="card" style="width: 18rem;">
+    <img class="card-img-top" [src]="myUser.image" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{myUser.firstName}} {{myUser.lastName}}</h5>
+      <p class="small-text">email : {{myUser.email}}</p>
+      <p class="small-text">phone number : {{myUser.phone}}</p>
+
+      <div class="gender">
+        <p> gender : 
+      <i class="fa-solid fa-person-dress" *ngIf="isWomen"></i>
+      <i class="fa-solid fa-person" *ngIf="isMale"></i>
+      </p>
+        </div>
+
+    </div>
+  </div>

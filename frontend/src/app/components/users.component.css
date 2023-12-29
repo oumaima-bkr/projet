@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+  }
+  
+  .row.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1%;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .mt-3 {
+    display: flex;
+    justify-content: center;
+  }
+  
